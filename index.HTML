@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfólio de Torugo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+        }
+        .intro {
+            background-color: #ffffff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 15px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Portfólio de Torugo</h1>
+    <p>Bem-vindo ao meu portfólio! Aqui você pode ver meus projetos e entrar em contato.</p>
+</header>
+
+<section class="intro">
+    <h2>Introdução</h2>
+    <p>Olá, sou Torugo, um entusiasta de design e desenvolvimento web. Neste portfólio, você pode ver uma coleção de alguns dos meus projetos favoritos, além de mais informações sobre mim.</p>
+</section>
+
+<section class="gallery">
+    <h2>Galeria de Projetos</h2>
+    <div>
+        <img src="https://via.placeholder.com/600x400?text=Projeto+1" alt="Projeto 1">
+        <p>Projeto 1 - Descrição do projeto.</p>
+    </div>
+    <div>
+        <img src="https://via.placeholder.com/600x400?text=Projeto+2" alt="Projeto 2">
+        <p>Projeto 2 - Descrição do projeto.</p>
+    </div>
+    <div>
+        <img src="https://via.placeholder.com/600x400?text=Projeto+3" alt="Projeto 3">
+        <p>Projeto 3 - Descrição do projeto.</p>
+    </div>
+</section>
+
+<section class="contact-form">
+    <h2>Entre em Contato</h2>
+    <form action="#" method="POST">
+        <input type="text" name="nome" placeholder="Seu Nome" required>
+        <input type="email" name="email" placeholder="Seu Email" required>
+        <textarea name="mensagem" rows="4" placeholder="Sua Mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+</body>
+</html>
